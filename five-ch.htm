@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+var num1 = 5;
+var num2 = 3;
+var sum = num1 + num2;
+document.write("Sum: " + sum + "<br>");
+
+
+var difference = num1 - num2;
+var product = num1 * num2;
+var quotient = num1 / num2;
+var modulus = num1 % num2;
+document.write("Difference: " + difference + "<br>");
+document.write("Product: " + product + "<br>");
+document.write("Quotient: " + quotient + "<br>");
+document.write("Modulus: " + modulus + "<br>");
+
+var variable;
+document.write("Value after variable declaration is: " + variable + "<br>");
+variable = 5;
+document.write("Initial value: " + variable + "<br>");
+variable++;
+document.write("Value after increment is: " + variable + "<br>");
+variable += 7;
+document.write("Value after addition is: " + variable + "<br>");
+variable--;
+document.write("Value after decrement is: " + variable + "<br>");
+var remainder = variable % 3;
+document.write("The remainder is: " + remainder + "<br>");
+
+var ticketPrice = 600;
+var totalCost = ticketPrice * 5;
+document.write("Total cost to buy 5 tickets: " + totalCost + " PKR<br>");
+
+var multiplicationTableNumber = 5;
+for (var i = 1; i <= 10; i++) {
+    var result = multiplicationTableNumber * i;
+    document.write(multiplicationTableNumber + " x " + i + " = " + result + "<br>");
+}
+
+var celsiusTemperature = 25;
+var fahrenheitTemperature = (celsiusTemperature * 9/5) + 32;
+document.write(celsiusTemperature + "°C is " + fahrenheitTemperature + "°F<br>");
+
+fahrenheitTemperature = 77;
+celsiusTemperature = (fahrenheitTemperature - 32) * 5/9;
+document.write(fahrenheitTemperature + "°F is " + celsiusTemperature + "°C<br>");
+
+var priceItem1 = 500;
+var priceItem2 = 300;
+var quantityItem1 = 2;
+var quantityItem2 = 3;
+var shippingCharges = 50;
+var totalCost = (priceItem1 * quantityItem1) + (priceItem2 * quantityItem2) + shippingCharges;
+document.write("Total cost of your order is: " + totalCost + " PKR<br>");
+
+var totalMarks = 1000;
+var marksObtained = 850;
+var percentage = (marksObtained / totalMarks) * 100;
+document.write("Percentage: " + percentage + "%<br>");
+
+var usDollars = 10;
+var saudiRiyals = 25;
+var exchangeRateDollarToRupee = 104.80;
+var exchangeRateRiyalToRupee = 28;
+var totalCurrencyInRupees = (usDollars * exchangeRateDollarToRupee) + (saudiRiyals * exchangeRateRiyalToRupee);
+document.write("Total currency in PKR: " + totalCurrencyInRupees + " PKR<br>");
+
+var result = (((variable + 5) * 10) / 2);
+document.write("Result: " + result + "<br>");
+
+var currentYear = 2023;
+var birthYear = 1990;
+var possibleAge1 = currentYear - birthYear;
+var possibleAge2 = possibleAge1 - 1;
+document.write("They are either " + possibleAge1 + " or " + possibleAge2 + " years old<br>");
+
+var radius = 5;
+var circumference = 2 * Math.PI * radius;
+var area = Math.PI * Math.pow(radius, 2);
+document.write("The circumference is " + circumference + "<br>");
+document.write("The area is " + area + "<br>");
+
+var favoriteSnack = "Chips";
+var currentAge = 25;
+var maximumAge = 70;
+var amountPerDay = 2;
+var totalNeeded = (maximumAge - currentAge) * amountPerDay;
+document.write("You will need " + totalNeeded + " " + favoriteSnack + " to last you until the ripe old age of " + maximumAge + "<br>");
+
+    </script>
+</body>
+</html>
